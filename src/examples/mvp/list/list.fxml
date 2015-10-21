@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.geometry.Insets?>
+
+<StackPane fx:controller="examples.mvp.list.ListController" xmlns:fx="http://javafx.com/fxml/1">
+	<ListView fx:id="listView" />
+	<padding>
+		<Insets top="10" left="10" right="10" bottom="10"/>
+	</padding>
+</StackPane>
+

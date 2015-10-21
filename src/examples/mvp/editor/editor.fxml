@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+
+<GridPane fx:controller="examples.mvp.editor.EditorController" xmlns:fx="http://javafx.com/fxml/1" hgap="5" vgap="5">
+	<columnConstraints>
+		<ColumnConstraints halignment="RIGHT" hgrow="NEVER"/>
+		<ColumnConstraints halignment="LEFT" hgrow="ALWAYS"/>
+	</columnConstraints>
+	
+	<Label text="First Name:" GridPane.columnIndex="0" GridPane.rowIndex="0"/> 
+	<Label text="Last Name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/> 
+	<Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+	
+	<TextField fx:id="firstNameField" GridPane.columnIndex="1" GridPane.rowIndex="0" /> 
+	<TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" /> 
+	<TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="2" /> 
+	
+	<padding>
+		<Insets  top="10" left="10" right="10" bottom="10"/>
+	</padding>
+	
+</GridPane>
+

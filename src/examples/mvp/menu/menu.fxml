@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+
+<StackPane fx:controller="examples.mvp.menu.MenuController" xmlns:fx="http://javafx.com/fxml/1">
+	<MenuBar fx:id="menuBar">
+		<Menu text="File">
+			<MenuItem text="Load" onAction="#load"/>
+			<MenuItem text="Save" onAction="#save"/>
+			<SeparatorMenuItem />
+			<MenuItem text="Quit" onAction="#exit"/>
+		</Menu>
+	</MenuBar>
+</StackPane>
+
